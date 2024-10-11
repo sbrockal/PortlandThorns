@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Portland Thorns Webpage">
+        <meta name="author" content="Saylor Brock-Allison">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portland Thorns FC</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./images/logo.png">
+    </head>
+    <body>
+        <a href="#" id="themeToggleLink">Dark Mode</a>
+        <main id="home">
+            <div class="logo-heading">
+                <img src="./images/logo.png" id="logo" alt="Portland Thorns logo" width="100">
+                <h1>Portland Thorns</h1>
+            </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#roster">Roster</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#contest">Contests</a>
+            </nav>
+            <div class="description">
+                <p>The Portland Thorns FC is an American professional women's soccer team based in Portland, Oregon. Established in 2012, the team began play in 2013 in the then-eight-team National Women's Soccer League (NWSL). The club won the NWSL Shield in 2016 and a second NWSL Championship in 2017. In 2020, they won the Community Shield with the best record in the 2020 NWSL Fall Series. In 2021, the Thorns won the NWSL Challenge Cup, the Women's International Champions Cup, and the NWSL Shield. They followed up in 2022 by winning the NWSL championship.</p>
+            </div>
+            <section id="roster">
+                <h2>Meet the Team</h2>
+                
+                <div class="roster-nav">
+                    <button onclick="showPlayer(0)">Sophia Smith</button>
+                    <button onclick="showPlayer(1)">Christine Sinclair</button>
+                    <button onclick="showPlayer(2)">Morgan Weaver</button>
+                    <button onclick="showPlayer(3)">Becky Sauerbrunn</button>
+                    <button onclick="showPlayer(4)">Bella Bixby</button>
+                    <button onclick="showPlayer(5)">Hina Sugita</button>
+                    <button onclick="showPlayer(6)">Jesse Flemming</button>
+                    <button onclick="showPlayer(7)">Marie Müller</button>
+                    <button onclick="showPlayer(8)">Meghan Klingenberg</button>
+                    <button onclick="showPlayer(9)">Olivia Moultrie</button>
+                </div>
+
+                <!-- Player Containers -->
+                <div class="player-container active" id="player0">
+                    <h3>Sophia Smith</h3>
+                    <img src="./images/sophiaSmith.webp" alt="Sophia Smith" height="200">
+                    <p>Sophia Smith is a fast and skillful forward known for her ability to score goals in critical moments. She has become a key player for the Thorns and the U.S. Women's National Team with her versatility and creativity on the field. Her rapid development has made her one of the brightest young stars in women's soccer.</p>
+                </div>
+
+                <div class="player-container" id="player1">
+                    <h3>Christine Sinclair</h3>
+                    <img src="./images/christineSinclair.webp" alt="Christine Sinclair" height="200">
+                    <p>Christine Sinclair is the all-time leading goal scorer in international soccer, for both men and women. A veteran forward and captain, she brings immense experience, leadership, and precision to the Portland Thorns. Sinclair is respected globally for her vision, football IQ, and ability to perform under pressure.</p>
+                </div>
+
+                <div class="player-container" id="player2">
+                    <h3>Morgan Weaver</h3>
+                    <img src="./images/morganWeaver.webp" alt="Morgan Weaver" height="200">
+                    <p>Morgan Weaver is a determined forward with a fierce playing style, known for her relentless work ethic. Her speed and ability to take on defenders have made her a valuable asset to the Thorns. Weaver has consistently impressed with her offensive contributions and high-energy performances.</p>
+                </div>
+
+                <div class="player-container" id="player3">
+                    <h3>Becky Sauerbrunn</h3>
+                    <img src="./images/beckySauerbrunn.webp" alt="Becky Sauerbrunn" height="200">
+                    <p>Becky Sauerbrunn is a legendary center-back known for her leadership, defensive prowess, and calmness under pressure. As captain of the U.S. Women's National Team, she has won multiple international titles and is a role model for young defenders. Her tactical awareness and ability to organize the backline are crucial to the Thorns' success.</p>
+                </div>
+
+                <div class="player-container" id="player4">
+                    <h3>Bella Bixby</h3>
+                    <img src="./images/bellaBixby.webp" alt="Bella Bixby" height="200">
+                    <p>Bella Bixby is the Thorns' first-choice goalkeeper, known for her sharp reflexes and command of the penalty area. She has made several game-saving stops, proving her reliability between the posts. Bixby's strong presence and confidence have quickly made her a fan favorite.</p>
+                </div>
+
+                <div class="player-container" id="player5">
+                    <h3>Hina Sugita</h3>
+                    <img src="./images/hinaSugita.webp" alt="Hina Sugita" height="200">
+                    <p>Hina Sugita is a creative midfielder with excellent ball control and vision. She is known for her ability to distribute the ball and create scoring opportunities for her teammates. Sugita's technical skills and quick decision-making make her a dynamic playmaker for the Thorns.</p>
+                </div>
+
+                <div class="player-container" id="player6">
+                    <h3>Jesse Flemming</h3>
+                    <img src="./images/jesseFlemming.webp" alt="Jesse Flemming" height="200">
+                    <p>Jesse Flemming is a composed midfielder with a high soccer IQ and the ability to control the pace of the game. Her precise passing and tactical awareness have helped her excel both for the Thorns and on the international stage with Canada. Flemming’s versatility makes her a key player in the midfield..</p>
+                </div>
+
+                <div class="player-container" id="player7">
+                    <h3>Marie Müller</h3>
+                    <img src="./images/marieMuller.webp" alt="Marie Müller" height="200">
+                    <p>Marie Müller is a hardworking midfielder with a strong defensive presence and excellent stamina. Known for her ability to break up opposition attacks and transition quickly, she plays a vital role in maintaining balance in the Thorns' midfield. Müller’s work rate and discipline make her a reliable team player.</p>
+                </div>
+
+                <div class="player-container" id="player8">
+                    <h3>Meghan Klingenberg</h3>
+                    <img src="./images/meghanKlingenberg.webp" alt="Meghan Klingenberg" height="200">
+                    <p>Meghan Klingenberg is an experienced defender known for her incredible crossing ability and attacking support from the left flank. A veteran of the U.S. Women's National Team, she brings leadership and tactical intelligence to the Thorns. Klingenberg’s energy and consistency on both ends of the field are pivotal to the team’s success.</p>
+                </div>
+
+                <div class="player-container" id="player9">
+                    <h3>Olivia Moultrie</h3>
+                    <img src="./images/oliviaMoultrie.webp" alt="Olivia Moultrie" height="200">
+                    <p>Olivia Moultrie is a rising star and one of the youngest players to sign a professional contract in the NWSL. Known for her technical skills and creativity, Moultrie has already shown great promise as a midfielder. Her quick feet and sharp passing make her a constant threat in attack.</p>
+                </div>
+            </section>
+            
+            <div class="content-wrapper">
+                <section id="contact">
+                    <form id="contactForm">
+                        <h2>Contact Us</h2>
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
+                        <div class="error-message" id="firstNameError"></div>
+                
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+                        <div class="error-message" id="lastNameError"></div>
+                
+                        <label for="number">Phone Number</label>
+                        <input type="tel" id="number" name="number" placeholder="Your phone number">
+                        <div class="error-message" id="phoneError"></div>
+                
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                        <div class="error-message" id="emailError"></div>
+                
+                        <label for="comments">Comments</label>
+                        <textarea id="comments" name="comments" placeholder="Your comments" required></textarea>
+                        <div class="error-message" id="commentsError"></div>
+                
+                        <label>Preferred Contact Method</label>
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="preferred_contact" value="email" required> Email
+                            </label>
+                            <label>
+                                <input type="radio" name="preferred_contact" value="phone" required> Phone
+                            </label>
+                        </div>
+                        <div class="error-message" id="contactMethodError"></div>
+                
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div id="thankYouMessage" style="display: none;"></div>
+                </section>
+                
+                <section id="contest">
+                    <h2>Win a signed Jersey</h2>
+                    <p>Guess a Name from the Players Listed Above</p>
+                    <input type="text" id="userGuess" placeholder="Enter your guess">
+                    <button onclick="checkGuess()">Submit Guess</button>
+                
+                    <div class="result" id="result"></div>
+                    <img id="jerseyImage" style="display: none;" alt="Player Jersey">
+                </section>
+            </div>
+        </main>
+        <footer>
+                <p>© Portland Thorns. All Rights Reserved.</p>
+        </footer>
+        <script src="index.js" async></script>
+    </body>
+</html>
